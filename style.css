@@ -1,0 +1,99 @@
+/* Universal styles */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./media/electric-guitar.jpg);
+    color: #FFF;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* Main section */
+.main-app-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+/* Represents the size of the text in the floating ball animation */
+h2 {
+    font-size: 2rem;
+}
+
+/* This is the animated circle that is formed when chord is clicked */
+.animated-visual > div {
+    align-items: center;
+    border-radius: 50%;
+    bottom: 0;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    left: 20%;
+    position: absolute;
+    width: 80px;
+    z-index: -1;
+}
+
+/* Animation for the ball element that moves when chord is played */
+@keyframes motion {
+    0% {
+        bottom: 0;
+        left: 20%;
+    }
+
+    50% {
+        bottom: 50%;
+        left: 50%;
+    }
+
+    100% {
+        bottom: 0;
+        left: 80%;
+    }
+}
+
+/* General chord element styling */
+.chords {
+    display: flex;
+    width: 100%;
+}
+
+.chords > div {
+    flex: 1;
+    height: 100px;
+    width: 100px;
+}
+
+/* Individual chords */
+.chord-1 {
+    background-color: #76C5FF;
+}
+
+.chord-2 {
+    background-color: #C58A95;
+}
+
+.chord-3 {
+    background-color: #52B640;
+}
+
+.chord-4 {
+    background-color: #9D65D0;
+}
+
+.chord-5 {
+    background-color: #DC2A4E;
+}
