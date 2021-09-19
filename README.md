@@ -1,6 +1,8 @@
 # Guitar-Sound-Generator
 Play a few chords recorded by my own guitar and watch the animations and chord names as you do!
 
+*** IMPORTANT: PLEASE ALLOW AUDIO AND VIDEO IN YOUR BROWSER AND REFRESH TO LOAD WITH SOUND! ***
+
 Just click the coloured bars at the bottom of the screen to see and hear the sounds of chords being played.
 
 Original inspiration for this was from a tutorial, but it I have revamped and reworked it.
