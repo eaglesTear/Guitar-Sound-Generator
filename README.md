@@ -1,3 +1,6 @@
+![guitar_chord_gen](https://user-images.githubusercontent.com/68791163/135515430-01da464d-d2fa-4935-a71f-bbd8f7c6aa83.PNG)
+
+
 # Guitar-Sound-Generator
 Play a few chords recorded by my own guitar and watch the animations and chord names as you do!
 
